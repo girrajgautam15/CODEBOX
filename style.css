@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body{
+    font-family: 'Rubik', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+.sidebar{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+.sidebar .side-con{
+    padding-right:5%;
+    padding-left: 5%;
+    padding-top:20%;
+    padding-bottom: 20%;
+}
+
+.header{
+    height: 530px;
+    float:center;
+    padding-left: 20%;
+}
+
+.header nav{
+    padding-top: 3%;
+}
+
+.login-btn{
+    float: right;
+    border-radius: 8px;
+}
