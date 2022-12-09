@@ -1,0 +1,23 @@
+{
+  "name": "codebox",
+  "version": "1.0.0",
+  "description": "Welocme to Codebox\r Store, Edit and run your codes here",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girrajgautam15/CODEBOX.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/girrajgautam15/CODEBOX/issues"
+  },
+  "homepage": "https://github.com/girrajgautam15/CODEBOX#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

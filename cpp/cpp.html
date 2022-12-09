@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeBox</title>
+    <link rel="stylesheet" href="./cpp_css.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="code-type">
+               <ul class="list">
+                   <li>C/C++</li>
+                   <li class="run">Run</li>
+               </ul>
+            </div>
+        </div>
+        <div class="coder">
+            
+            <div class="code-editor cppCoder">
+                <div class="code cpp" id="cpp"></div>
+            </div>
+        </div>
+        <div class="output">
+            <iframe src="" class="output-iframe" frameborder="0"></iframe>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.13/ace.js"></script>
+    <script src="./cpp_app.js"></script>
+</body>
+
+</html>
